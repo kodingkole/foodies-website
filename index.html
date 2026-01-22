@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+ 
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-600">Foodies</h1>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#home" class="hover:text-orange-600">Home</a></li>
+        <li><a href="#menu" class="hover:text-orange-600">Menu</a></li>
+        <li><a href="#contact" class="hover:text-orange-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <section id="home" class="bg-orange-50 py-20 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold">Delicious Food, Delivered Fast</h2>
+    <p class="mt-4 text-gray-600 max-w-xl mx-auto">
+      Fresh, tasty meals made with love. Choose your favorite food and order now.Thank You for visiting the site,Hope to take order from you soon,Don's miss the chance of eating something so delicious.Take a bite!!!
+    </p>
+    <a href="#menu" class="mt-6 inline-block bg-orange-600 text-white px-6 py-3 rounded hover:bg-orange-700 transition">
+      See Menu
+    </a>
+  </section>
+
+  
+  <section id="menu" class="max-w-7xl mx-auto p-6">
+    <h2 class="text-3xl font-bold text-center mb-8">Our Menu</h2>
+
+    <div class="flex flex-wrap justify-center gap-3 mb-8">
+      <button class="px-4 py-2 rounded bg-orange-600 text-white hover:bg-orange-700 transition">Fast Food</button>
+      <button class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 transition">Cold Drink</button>
+      <button class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 transition">Milkshake</button>
+      <button class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 transition">Beverage</button>
+      <button class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 transition">Dessert</button>
+    </div>
+
+   
+    <h3 class="text-2xl font-bold mb-4">Fast Food</h3>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mb-10">
+   
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/burger.jpg" alt="Burger" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Burger</h3>
+          <p class="text-gray-500 mt-1">399Tk</p>
+          <a href="order.html?item=Burger&price=5.99"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+    
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/pizza.jpg" alt="Pizza" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Pizza</h3>
+          <p class="text-gray-500 mt-1">1099Tk</p>
+          <a href="order.html?item=Pizza&price=8.99"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/pasta.jpg" alt="Pasta" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Pasta</h3>
+          <p class="text-gray-500 mt-1">699Tk</p>
+          <a href="order.html?item=Pasta&price=6.99"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+   
+    <h3 class="text-2xl font-bold mb-4">Dessert</h3>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mb-10">
+    
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/cone-icecream.jpg" alt="Ice Cream" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Cone Ice Cream</h3>
+          <p class="text-gray-500 mt-1">299Tk</p>
+          <a href="order.html?item=Cone%20Ice%20Cream&price=299"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+     
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/cup.jpg" alt="Ice Cream" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Cup Ice Cream</h3>
+          <p class="text-gray-500 mt-1">150Tk</p>
+          <a href="order.html?item=Cup%20Ice%20Cream&price=150"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+     
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/vainila.jpg" alt="Vanilla" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Vanilla Ice Cream</h3>
+          <p class="text-gray-500 mt-1">299Tk</p>
+          <a href="order.html?item=Vanilla%20Ice%20Cream&price=299"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+  
+    <h3 class="text-2xl font-bold mb-4">Milkshake</h3>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mb-10">
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/bananajpg.jpg" alt="Milkshake" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Chocolate</h3>
+          <p class="text-gray-500 mt-1">120Tk</p>
+          <a href="order.html?item=Chocolate%20Milkshake&price=120"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/choco.jpg" alt="Milkshake" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Choco</h3>
+          <p class="text-gray-500 mt-1">120Tk</p>
+          <a href="order.html?item=Choco%20Milkshake&price=120"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/cherry.jpg" alt="Milkshake" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Cherry</h3>
+          <p class="text-gray-500 mt-1">120Tk</p>
+          <a href="order.html?item=Cherry%20Milkshake&price=120"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+    
+    <h3 class="text-2xl font-bold mb-4">Dessert</h3>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mb-10">
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/cake.jpg" alt="Dessert" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Chocolate Cake</h3>
+          <p class="text-gray-500 mt-1">350Tk</p>
+          <a href="order.html?item=Chocolate%20Cake&price=350"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/pudding.jpg" alt="Dessert" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Chocolate Muse</h3>
+          <p class="text-gray-500 mt-1">370Tk</p>
+          <a href="order.html?item=Chocolate%20Muse&price=370"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5) Cold Drink -->
+    <h3 class="text-2xl font-bold mb-4">Cold Drink</h3>
+    <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mb-10">
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/coke.jpg" alt="Cold Drink" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Coke</h3>
+          <p class="text-gray-500 mt-1">30Tk</p>
+          <a href="order.html?item=Coke&price=30"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/fanta.jpg" alt="Cold Drink" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Fanta</h3>
+          <p class="text-gray-500 mt-1">50Tk</p>
+          <a href="order.html?item=Fanta&price=50"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow hover:shadow-xl transition duration-300 overflow-hidden">
+        <img src="assets/images/strawberry.jpg" alt="Cold Drink" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold">Strawberry</h3>
+          <p class="text-gray-500 mt-1">80Tk</p>
+          <a href="order.html?item=Strawberry&price=80"
+             class="mt-4 inline-block bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 transition">
+            Order Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="contact" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+      <p class="text-gray-600 text-center mb-8">
+        Phone: +880 123456789 <br>
+        Email: info@foodies.com <br>
+        Address: Dhaka, Bangladesh
+      </p>
+
+      <div class="grid gap-6 sm:grid-cols-2">
+        <input type="text" placeholder="Your Name" class="p-3 border rounded">
+        <input type="email" placeholder="Your Email" class="p-3 border rounded">
+        <textarea placeholder="Your Message" class="p-3 border rounded col-span-2"></textarea>
+        <button class="bg-orange-600 text-white px-6 py-3 rounded hover:bg-orange-700 transition col-span-2">
+          Send Message
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-100 text-center py-4 text-gray-500">
+    © 2026 Foodies. All rights reserved.
+  </footer>
+
+</body>
+</html>
